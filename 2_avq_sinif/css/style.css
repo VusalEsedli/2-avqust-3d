@@ -1,0 +1,16 @@
+
+
+.div{
+    margin:15%;
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    transition: all 2s;
+}
+.div:hover img {
+   transform: scale(2,2);
+}
